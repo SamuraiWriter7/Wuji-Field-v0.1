@@ -1,0 +1,554 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/wuji-field-v0.1.schema.json",
+  "title": "Wuji Field v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "japanese_name",
+    "version",
+    "status",
+    "layer_position",
+    "role",
+    "summary",
+    "japanese_summary",
+    "core_principle",
+    "japanese_core_principle",
+    "purpose",
+    "japanese_purpose",
+    "position_in_kazene_structure",
+    "layer_flow",
+    "principles",
+    "mythos_resistance",
+    "input_handling",
+    "output_to_trace_core",
+    "zero_style_response_pattern",
+    "japanese_zero_style_response_pattern",
+    "failure_modes",
+    "implementation_notes",
+    "japanese_implementation_notes",
+    "minimal_formula",
+    "license_note",
+    "japanese_license_note"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "japanese_name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "layer_position": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "japanese_summary": {
+      "type": "string"
+    },
+    "core_principle": {
+      "type": "string"
+    },
+    "japanese_core_principle": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "japanese_purpose": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "position_in_kazene_structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "after",
+        "before"
+      ],
+      "properties": {
+        "after": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "before": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "layer_flow": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "layer",
+          "name",
+          "japanese_name",
+          "function",
+          "japanese_function"
+        ],
+        "properties": {
+          "layer": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "name": {
+            "type": "string"
+          },
+          "japanese_name": {
+            "type": "string"
+          },
+          "function": {
+            "type": "string"
+          },
+          "japanese_function": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "principles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "non_polarization",
+        "non_resistance",
+        "delayed_judgment",
+        "trace_preservation",
+        "reversible_response"
+      ],
+      "properties": {
+        "non_polarization": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        },
+        "non_resistance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        },
+        "delayed_judgment": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        },
+        "trace_preservation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        },
+        "reversible_response": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "mythos_resistance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "japanese_definition",
+        "resistance_methods",
+        "japanese_resistance_methods"
+      ],
+      "properties": {
+        "definition": {
+          "type": "string"
+        },
+        "japanese_definition": {
+          "type": "string"
+        },
+        "resistance_methods": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "japanese_resistance_methods": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "input_handling": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_input",
+        "immediate_labels_disallowed",
+        "preferred_initial_labels"
+      ],
+      "properties": {
+        "raw_input": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "accepted",
+            "description",
+            "japanese_description"
+          ],
+          "properties": {
+            "accepted": {
+              "type": "boolean"
+            },
+            "description": {
+              "type": "string"
+            },
+            "japanese_description": {
+              "type": "string"
+            }
+          }
+        },
+        "immediate_labels_disallowed": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "preferred_initial_labels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "output_to_trace_core": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_fields",
+        "polarity_status_allowed_values"
+      ],
+      "properties": {
+        "required_fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "polarity_status_allowed_values": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "zero_style_response_pattern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "description",
+        "japanese_description",
+        "examples"
+      ],
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "japanese_description": {
+          "type": "string"
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "input_type",
+              "response_style",
+              "sample_response"
+            ],
+            "properties": {
+              "input_type": {
+                "type": "string"
+              },
+              "response_style": {
+                "type": "string"
+              },
+              "sample_response": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "japanese_zero_style_response_pattern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "examples"
+      ],
+      "properties": {
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "input_type",
+              "response_style",
+              "sample_response"
+            ],
+            "properties": {
+              "input_type": {
+                "type": "string"
+              },
+              "response_style": {
+                "type": "string"
+              },
+              "sample_response": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "failure_modes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "excessive_absorption",
+        "false_neutrality",
+        "trace_dilution",
+        "infinite_suspension"
+      ],
+      "properties": {
+        "excessive_absorption": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "risk",
+            "japanese_risk",
+            "countermeasure",
+            "japanese_countermeasure"
+          ],
+          "properties": {
+            "risk": {
+              "type": "string"
+            },
+            "japanese_risk": {
+              "type": "string"
+            },
+            "countermeasure": {
+              "type": "string"
+            },
+            "japanese_countermeasure": {
+              "type": "string"
+            }
+          }
+        },
+        "false_neutrality": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "risk",
+            "japanese_risk",
+            "countermeasure",
+            "japanese_countermeasure"
+          ],
+          "properties": {
+            "risk": {
+              "type": "string"
+            },
+            "japanese_risk": {
+              "type": "string"
+            },
+            "countermeasure": {
+              "type": "string"
+            },
+            "japanese_countermeasure": {
+              "type": "string"
+            }
+          }
+        },
+        "trace_dilution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "risk",
+            "japanese_risk",
+            "countermeasure",
+            "japanese_countermeasure"
+          ],
+          "properties": {
+            "risk": {
+              "type": "string"
+            },
+            "japanese_risk": {
+              "type": "string"
+            },
+            "countermeasure": {
+              "type": "string"
+            },
+            "japanese_countermeasure": {
+              "type": "string"
+            }
+          }
+        },
+        "infinite_suspension": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "risk",
+            "japanese_risk",
+            "countermeasure",
+            "japanese_countermeasure"
+          ],
+          "properties": {
+            "risk": {
+              "type": "string"
+            },
+            "japanese_risk": {
+              "type": "string"
+            },
+            "countermeasure": {
+              "type": "string"
+            },
+            "japanese_countermeasure": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "implementation_notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "japanese_implementation_notes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "minimal_formula": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "japanese_text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "japanese_text": {
+          "type": "string"
+        }
+      }
+    },
+    "license_note": {
+      "type": "string"
+    },
+    "japanese_license_note": {
+      "type": "string"
+    }
+  }
+}
