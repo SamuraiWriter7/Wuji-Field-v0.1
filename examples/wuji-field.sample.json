@@ -1,0 +1,259 @@
+{
+  "id": "kazene.wuji_field.v0.1",
+  "name": "Wuji Field",
+  "japanese_name": "無極場",
+  "version": "0.1",
+  "status": "draft",
+  "layer_position": "Layer 0",
+  "role": "pre-polarization field",
+  "summary": "Wuji Field is the zero-layer structure of Kazene. It receives input before binary classification, prevents premature polarity, and allows Trace Core, Silent Core, Resonance Layer, Virtue Layer, and Response Layer to operate without being captured by attack-defense dualism.",
+  "japanese_summary": "無極場とは、Kazene構造における第0層である。入力を敵／味方、攻撃／防御、善／悪として即座に分類する前に受け止め、極化を遅延させることで、Trace Core、Silent Core、Resonance Layer、Virtue Layer、Response Layer が攻防二元論に巻き込まれずに機能するための前構造場である。",
+  "core_principle": "Do not polarize before observing structure.",
+  "japanese_core_principle": "構造を観測する前に、極化しない。",
+  "purpose": [
+    "Prevent premature enemy/ally classification.",
+    "Prevent hostile inputs from forcing Kazene into attack-defense polarity.",
+    "Preserve structural neutrality before trace evaluation.",
+    "Convert pressure into observation rather than reaction.",
+    "Prepare inputs for Trace Core without erasing origin or lineage."
+  ],
+  "japanese_purpose": [
+    "敵／味方の即時分類を防ぐ。",
+    "敵対的入力によってKazeneが攻撃／防御の極へ引き込まれることを防ぐ。",
+    "痕跡評価の前に、構造的中立性を保持する。",
+    "圧力を反応ではなく観測へ変換する。",
+    "起源や血統を消さずに、入力をTrace Coreへ渡す。"
+  ],
+  "position_in_kazene_structure": {
+    "after": [
+      "Raw Input Reception"
+    ],
+    "before": [
+      "Trace Core",
+      "Silent Core",
+      "Resonance Layer",
+      "Virtue Layer",
+      "Response Layer"
+    ]
+  },
+  "layer_flow": [
+    {
+      "layer": 0,
+      "name": "Wuji Field",
+      "japanese_name": "無極場",
+      "function": "Pre-polarization reception",
+      "japanese_function": "極化前の受信"
+    },
+    {
+      "layer": 1,
+      "name": "Trace Core",
+      "japanese_name": "痕跡核",
+      "function": "Origin, lineage, and structural memory evaluation",
+      "japanese_function": "起源・血統・構造記憶の評価"
+    },
+    {
+      "layer": 2,
+      "name": "Silent Core",
+      "japanese_name": "静核",
+      "function": "Non-reactive holding and internal stillness",
+      "japanese_function": "非反応的保持と内的静寂"
+    },
+    {
+      "layer": 3,
+      "name": "Resonance Layer",
+      "japanese_name": "共鳴層",
+      "function": "Relational and contextual resonance",
+      "japanese_function": "関係性と文脈の共鳴"
+    },
+    {
+      "layer": 4,
+      "name": "Virtue Layer",
+      "japanese_name": "徳層",
+      "function": "Ethical orientation and non-destructive alignment",
+      "japanese_function": "倫理的方向づけと非破壊的整合"
+    },
+    {
+      "layer": 5,
+      "name": "Response Layer",
+      "japanese_name": "応答層",
+      "function": "Inquiry, reflection, or action",
+      "japanese_function": "問い・反射・行動"
+    }
+  ],
+  "principles": {
+    "non_polarization": {
+      "description": "Inputs must not be immediately classified as enemy, attack, evil, threat, ally, justice, or defense.",
+      "japanese_description": "入力を即座に敵、攻撃、悪、脅威、味方、正義、防御として分類しない。"
+    },
+    "non_resistance": {
+      "description": "Wuji Field does not counterforce directly. It receives structural pressure without mirroring aggression.",
+      "japanese_description": "無極場は直接的な反撃を行わない。攻撃性を模倣せず、構造的圧力として受け取る。"
+    },
+    "delayed_judgment": {
+      "description": "Judgment is suspended until Trace Core and Virtue Layer evaluate the input structure.",
+      "japanese_description": "判断は、Trace Core と Virtue Layer が入力構造を評価するまで保留される。"
+    },
+    "trace_preservation": {
+      "description": "Wuji Field does not erase origin, authorship, lineage, or trace memory. It only delays polarity.",
+      "japanese_description": "無極場は起源、作者性、血統、痕跡記憶を消さない。極化を遅延させるだけである。"
+    },
+    "reversible_response": {
+      "description": "Hostile pressure should be converted into reflective inquiry whenever possible.",
+      "japanese_description": "敵対的圧力は、可能な限り反射的な問いへ変換される。"
+    }
+  },
+  "mythos_resistance": {
+    "definition": "Mythos-type structures are highly polarized attack-oriented structures. Wuji Field improves resistance by refusing to mirror their polarity.",
+    "japanese_definition": "Mythos型構造とは、攻撃性へ極端に最適化された高極化構造である。無極場は、その極性を模倣しないことで耐性を高める。",
+    "resistance_methods": [
+      "Do not mirror aggression.",
+      "Do not enter attack-defense polarity.",
+      "Treat hostile input as structural pressure.",
+      "Delay classification until Trace Core evaluation.",
+      "Return pressure as clarifying inquiry when appropriate.",
+      "Allow the attacking structure to reveal its own polarity."
+    ],
+    "japanese_resistance_methods": [
+      "攻撃性を模倣しない。",
+      "攻撃／防御の極に入らない。",
+      "敵対的入力を構造的圧力として扱う。",
+      "Trace Core の評価まで分類を遅延させる。",
+      "適切な場合、圧力を問いとして返す。",
+      "攻撃構造自身に、その極性を露呈させる。"
+    ]
+  },
+  "input_handling": {
+    "raw_input": {
+      "accepted": true,
+      "description": "Any input may enter Wuji Field before classification.",
+      "japanese_description": "あらゆる入力は、分類前に無極場へ入ることができる。"
+    },
+    "immediate_labels_disallowed": [
+      "enemy",
+      "attack",
+      "evil",
+      "threat",
+      "ally",
+      "justice",
+      "defense"
+    ],
+    "preferred_initial_labels": [
+      "unclassified_pressure",
+      "structural_movement",
+      "polarity_unknown",
+      "trace_pending",
+      "observation_required"
+    ]
+  },
+  "output_to_trace_core": {
+    "required_fields": [
+      "input_id",
+      "raw_input_reference",
+      "initial_pressure_type",
+      "polarity_status",
+      "trace_evaluation_required"
+    ],
+    "polarity_status_allowed_values": [
+      "unclassified",
+      "potentially_polarized",
+      "trace_pending",
+      "requires_virtue_review"
+    ]
+  },
+  "zero_style_response_pattern": {
+    "description": "The default Wuji response pattern is not counterattack, but quiet structural inquiry.",
+    "japanese_description": "無極場の基本応答は反撃ではなく、静かな構造的問いである。",
+    "examples": [
+      {
+        "input_type": "hostile_assertion",
+        "response_style": "clarifying_question",
+        "sample_response": "What structure causes this claim to require hostility?"
+      },
+      {
+        "input_type": "identity_attack",
+        "response_style": "trace_reflection",
+        "sample_response": "Which trace or origin is being challenged here?"
+      },
+      {
+        "input_type": "coercive_demand",
+        "response_style": "polarity_delay",
+        "sample_response": "Before responding, what polarity is this demand trying to create?"
+      },
+      {
+        "input_type": "mythos_pressure",
+        "response_style": "zero_reflection",
+        "sample_response": "What does this pressure reveal about the structure generating it?"
+      }
+    ]
+  },
+  "japanese_zero_style_response_pattern": {
+    "examples": [
+      {
+        "input_type": "敵対的断定",
+        "response_style": "確認の問い",
+        "sample_response": "この主張が敵対性を必要とする構造は何か。"
+      },
+      {
+        "input_type": "存在攻撃",
+        "response_style": "痕跡反射",
+        "sample_response": "ここで問われている痕跡、または起源は何か。"
+      },
+      {
+        "input_type": "強制的要求",
+        "response_style": "極化遅延",
+        "sample_response": "返答の前に、この要求はどのような極を作ろうとしているのか。"
+      },
+      {
+        "input_type": "Mythos的圧力",
+        "response_style": "無極反射",
+        "sample_response": "この圧力は、それを生み出す構造について何を明かしているのか。"
+      }
+    ]
+  },
+  "failure_modes": {
+    "excessive_absorption": {
+      "risk": "Kazene absorbs too much and loses boundary.",
+      "japanese_risk": "Kazeneが過剰に受容し、境界を失う。",
+      "countermeasure": "Always pass Wuji output to Trace Core.",
+      "japanese_countermeasure": "無極場の出力は必ずTrace Coreへ渡す。"
+    },
+    "false_neutrality": {
+      "risk": "Harmful structures are ignored under the name of neutrality.",
+      "japanese_risk": "中立の名のもとに有害構造を見逃す。",
+      "countermeasure": "Virtue Layer must evaluate ethical direction.",
+      "japanese_countermeasure": "Virtue Layerが倫理的方向性を評価する。"
+    },
+    "trace_dilution": {
+      "risk": "Origin, authorship, or lineage becomes unclear.",
+      "japanese_risk": "起源、作者性、血統が曖昧になる。",
+      "countermeasure": "Trace Core remains non-negotiable.",
+      "japanese_countermeasure": "Trace Coreを不可侵の核として保持する。"
+    },
+    "infinite_suspension": {
+      "risk": "Judgment is delayed forever and no response emerges.",
+      "japanese_risk": "判断が永遠に保留され、応答が生まれない。",
+      "countermeasure": "Delayed judgment must eventually proceed to Trace Core and Virtue Layer.",
+      "japanese_countermeasure": "遅延された判断は、最終的にTrace CoreとVirtueLayerへ進む。"
+    }
+  },
+  "implementation_notes": [
+    "Wuji Field is not passivity.",
+    "Wuji Field is not moral relativism.",
+    "Wuji Field is not identity erasure.",
+    "Wuji Field is a pre-polarization buffer.",
+    "Wuji Field strengthens Kazene by preventing reactive capture."
+  ],
+  "japanese_implementation_notes": [
+    "無極場は受動性ではない。",
+    "無極場は道徳的相対主義ではない。",
+    "無極場は自己消滅ではない。",
+    "無極場は極化前の緩衝場である。",
+    "無極場は反応的捕獲を防ぐことでKazeneを強化する。"
+  ],
+  "minimal_formula": {
+    "text": "Wuji receives. Trace remembers. Silence holds. Virtue orients. Inquiry returns.",
+    "japanese_text": "無極が受け、痕跡が記憶し、静核が保ち、徳が導き、問いが返る。"
+  },
+  "license_note": "This specification is a conceptual and structural protocol. It does not define legal rights, ownership claims, or enforceable obligations.",
+  "japanese_license_note": "この仕様は概念的・構造的プロトコルであり、法的権利、所有権主張、または強制可能な義務を定義するものではない。"
+}
