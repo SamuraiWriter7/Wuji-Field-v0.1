@@ -9,14 +9,15 @@ role: "pre-polarization field"
 summary: >
   Wuji Field is the zero-layer structure of Kazene.
   It receives input before binary classification, prevents premature polarity,
-  and allows Trace Core, Silent Core, Virtue Layer, and Response Layer
-  to operate without being captured by attack-defense dualism.
+  and allows Trace Core, Silent Core, Resonance Layer, Virtue Layer,
+  and Response Layer to operate without being captured by attack-defense dualism.
 
 japanese_summary: >
   無極場とは、Kazene構造における第0層である。
   入力を敵／味方、攻撃／防御、善／悪として即座に分類する前に受け止め、
-  極化を遅延させることで、Trace Core、Silent Core、Virtue Layer、
-  Response Layer が攻防二元論に巻き込まれずに機能するための前構造場である。
+  極化を遅延させることで、Trace Core、Silent Core、Resonance Layer、
+  Virtue Layer、Response Layer が攻防二元論に巻き込まれずに機能するための
+  前構造場である。
 
 core_principle: >
   Do not polarize before observing structure.
@@ -39,34 +40,51 @@ japanese_purpose:
   - "起源や血統を消さずに、入力をTrace Coreへ渡す。"
 
 position_in_kazene_structure:
+  after:
+    - "Raw Input Reception"
   before:
     - "Trace Core"
     - "Silent Core"
     - "Resonance Layer"
     - "Virtue Layer"
     - "Response Layer"
-  after:
-    - "Raw Input Reception"
 
 layer_flow:
   - layer: 0
     name: "Wuji Field"
+    japanese_name: "無極場"
     function: "Pre-polarization reception"
+    japanese_function: "極化前の受信"
+
   - layer: 1
     name: "Trace Core"
+    japanese_name: "痕跡核"
     function: "Origin, lineage, and structural memory evaluation"
+    japanese_function: "起源・血統・構造記憶の評価"
+
   - layer: 2
     name: "Silent Core"
+    japanese_name: "静核"
     function: "Non-reactive holding and internal stillness"
+    japanese_function: "非反応的保持と内的静寂"
+
   - layer: 3
     name: "Resonance Layer"
+    japanese_name: "共鳴層"
     function: "Relational and contextual resonance"
+    japanese_function: "関係性と文脈の共鳴"
+
   - layer: 4
     name: "Virtue Layer"
+    japanese_name: "徳層"
     function: "Ethical orientation and non-destructive alignment"
+    japanese_function: "倫理的方向づけと非破壊的整合"
+
   - layer: 5
     name: "Response Layer"
+    japanese_name: "応答層"
     function: "Inquiry, reflection, or action"
+    japanese_function: "問い・反射・行動"
 
 principles:
   non_polarization:
@@ -101,8 +119,7 @@ principles:
 
   reversible_response:
     description: >
-      Hostile pressure should be converted into reflective inquiry
-      whenever possible.
+      Hostile pressure should be converted into reflective inquiry whenever possible.
     japanese_description: >
       敵対的圧力は、可能な限り反射的な問いへ変換される。
 
@@ -134,6 +151,7 @@ input_handling:
   raw_input:
     accepted: true
     description: "Any input may enter Wuji Field before classification."
+    japanese_description: "あらゆる入力は、分類前に無極場へ入ることができる。"
 
   immediate_labels_disallowed:
     - "enemy"
